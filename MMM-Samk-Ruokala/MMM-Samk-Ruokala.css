@@ -1,0 +1,33 @@
+.MMM-Samk-Ruokala {
+
+  opacity: 1;
+  transition: opacity 2s ease;
+  position: absolute;
+  text-align: left;
+  max-width: 100%; /* Rajoita leveys 100%:iin näytön leveydestä */
+  margin: 0 auto; /* Aseta marginaali automaattisesti, jotta moduuli keskittyy */
+}
+.MMM-Samk-Ruokala div {
+  
+  margin-bottom: 5px;
+  word-wrap: break-word; /* Kääri pitkät sanat tai linkit */
+}
+@media screen and (max-width: 600px) {
+  .MMM-Samk-Ruokala div {
+    margin-bottom: 3px;
+  }
+
+  .MMM-Samk-Ruokala li {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .MMM-Samk-Ruokala div {
+    margin-bottom: 5px;
+  }
+
+  .MMM-Samk-Ruokala li {
+    margin-left: 20px;
+  }
+}

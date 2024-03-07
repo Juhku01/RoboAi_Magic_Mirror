@@ -1,0 +1,115 @@
+{
+  "Silvia": [
+    {
+      "Date": "2024-02-16T00:00:00+00:00",
+      "LunchTime": "10:30\u201314:00",
+      "SetMenus": [
+        {
+          "SortOrder": 0,
+          "Name": "KASVISLOUNAS",
+          "Price": "OP 2,95/HK 5,91",
+          "Components": [
+            "Shahi Paneer (*, A, G, ILM)",
+            "H\u00f6yrytetty\u00e4 tummaa riisi\u00e4 (*, G, L, M, Veg)"
+          ]
+        },
+        {
+          "SortOrder": 2,
+          "Name": "LOUNAS I",
+          "Price": "OP 2,95/HK 5,91",
+          "Components": [
+            "Tonnikala-pinaattilasagnettea (*, A, L, VS)"
+          ]
+        },
+        {
+          "SortOrder": 3,
+          "Name": "LOUNAS II",
+          "Price": "OP 2,95/HK 5,91",
+          "Components": [
+            "Jauhelihapihvej\u00e4 ja haudutettua sipulia (*, A, L, M)",
+            "Perunasosetta (*, A, G, ILM, L)"
+          ]
+        },
+        {
+          "SortOrder": 7,
+          "Name": "P\u00c4IV\u00c4N MAKEA",
+          "Price": "1,60",
+          "Components": [
+            "Aprikoosipiirakkaa (A, L)",
+            "Vaniljakastiketta (A, G, L)"
+          ]
+        },
+        {
+          "SortOrder": 11,
+          "Name": null,
+          "Price": null,
+          "Components": []
+        }
+      ]
+    }
+  ],
+  "Sofia": [
+    {
+      "Date": "2024-02-16T00:00:00+00:00",
+      "LunchTime": "10:30\u201314:00",
+      "SetMenus": [
+        {
+          "SortOrder": 8,
+          "Name": "Sis\u00e4ltyy lounasbuffetiin / Opiskelijan kasvisateriavaihtoehto ",
+          "Price": "11,50\u20ac / Opp. 2,95\u20ac",
+          "Components": [
+            "Soija-kasvist\u00e4ytett\u00e4 (*, A, G, ILM, L, M, Veg, VS)",
+            "Harissa-kauragurttikastiketta (A, ILM, L, M, Veg)",
+            "T\u00e4ysjyv\u00e4vehn\u00e4tortilla (A, L, M, Veg)"
+          ]
+        },
+        {
+          "SortOrder": 9,
+          "Name": "Sis\u00e4ltyy lounasbuffetiin / Opiskelijan perusateriavaihtoehto ",
+          "Price": "11,50\u20ac / Opp. 2,95\u20ac",
+          "Components": [
+            "Ranskalaista jauhelihakastiketta (*, A, G, L, M, VS)",
+            "Perunasosetta (A, G, L)"
+          ]
+        },
+        {
+          "SortOrder": 10,
+          "Name": "Sis\u00e4ltyy lounasbuffetiin / Opiskelijan perusateriavaihtoehto ",
+          "Price": "11,50\u20ac/ Opp. 2,95\u20ac",
+          "Components": [
+            "Broileri-fetapizzaa BBQ (A, VL, VS)"
+          ]
+        },
+        {
+          "SortOrder": 17,
+          "Name": "P\u00e4iv\u00e4n l\u00e4mpim\u00e4t lis\u00e4kkeet",
+          "Price": null,
+          "Components": [
+            "Kauden kasviksia (G, L, M, Veg)"
+          ]
+        },
+        {
+          "SortOrder": 19,
+          "Name": "P\u00e4iv\u00e4n j\u00e4lkiruoka, sis\u00e4ltyy lounasbuffetiin :)",
+          "Price": "Opiskelijalle 1,70\u20ac",
+          "Components": [
+            "Mansikkapiirakkaa (A, L)",
+            "Vaniljakastiketta (A, G, L)"
+          ]
+        },
+        {
+          "SortOrder": 67,
+          "Name": "FastFood-grilliannoksia ma-pe klo 10.30-14.00",
+          "Price": "alkaen 7,90\u20ac/ Opp. 2,95\u20ac-5,60\u20ac",
+          "Components": [
+            "Juustohampurilainen ja ranskalaisia (A)",
+            "Makkaraperunet (*, G, L, M)",
+            "Porsaan lehtipihvi, ranskalaiset ja persiljavoita (G, L, M)",
+            "Kreikkalaista salaattia (G, L, M, Veg)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Agora": []
+}
