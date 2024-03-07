@@ -1,0 +1,17 @@
+#bussiAikataulu {
+    opacity: 1;
+    transition: opacity 2s ease;
+    position:absolute;
+    text-align: left;
+
+}
+
+#bussiAikataulu div {
+  
+  display:flex;
+  overflow:hidden;
+  display: inline-block;
+  min-width: 120px;
+  flex-direction:column;
+
+}
