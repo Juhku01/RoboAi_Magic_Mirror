@@ -148,65 +148,7 @@ Module.register("MMM-bussi", {
         return `${tunnit.toString().padStart(2, '0')}:${minuutit.toString().padStart(2, '0')}:${sekunnitJaljella.toString().padStart(2, '0')}`;
     },
 
-    haeLaehimmaetPysaekit: async function () {
-        // Tämä funktio hakee lähimmät pysäkit käyttäen GraphQL-pyyntöä
-        const url = 'https://api.digitransit.fi/routing/v1/routers/finland/index/graphql';
-
-        const headers = {
-            'Content-Type': 'application/json',
-            'Digitransit-Subscription-Key': '' //aseta tähän api avain,
-        };
-
-        const query = `
-            {
-                nearest(lat: 61.4776747, lon: 21.7890566, maxDistance: 500, filterByPlaceTypes: STOP) {
-                    edges {
-                        node {
-                            place {
-                                ...on Stop {
-                                    name
-                                    stoptimesWithoutPatterns {
-                                        scheduledArrival
-                                        realtimeArrival
-                                        departureDelay
-                                        serviceDay
-                                        trip {
-                                            route {
-                                                shortName
-                                                longName
-                                            }
-                                        }
-                                        stopSequence
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        `;
-
-        const data = { query };
-
-        try {
-            const response = await fetch(url, {
-                method: 'POST',
-                headers,
-                body: JSON.stringify(data),
-            });
-
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-
-            const result = await response.json();
-            const pysakit = result.data.nearest.edges;
-            return pysakit;
-        } catch (error) {
-            console.error('Virhe:', error.message);
-            return null;
-        }
-    },
+ 
 
     tulostaViesti: function (viesti, wrapper) {
         // Tämä funktio lisää viestin Magic Mirrorin näytölle
